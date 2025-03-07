@@ -1,0 +1,27 @@
+competitive-coding-leaderboard/
+├── backend/
+│   ├── cmd/
+│   │   └── server/
+│   │       └── main.go
+│   ├── internal/
+│   │   ├── auth/
+│   │   ├── config/
+│   │   ├── handlers/
+│   │   ├── middleware/
+│   │   ├── models/
+│   │   ├── repository/
+│   │   ├── services/
+│   │   └── worker/
+│   ├── Dockerfile
+│   └── go.mod
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   ├── store/
+│   │   └── types/
+│   ├── Dockerfile
+│   └── package.json
+├── docker-compose.yml
+└── Makefile 
