@@ -7,7 +7,7 @@ import { Profile } from './pages/Profile';
 import Login from './pages/Login';
 import { AuthProvider } from './context/AuthContext';
 
-function App() {
+export const App = () => {
   return (
     <AuthProvider>
       <Router>
@@ -26,5 +26,3 @@ function App() {
     </AuthProvider>
   );
 }
-
-export default App; 

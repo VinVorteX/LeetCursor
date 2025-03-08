@@ -5,7 +5,7 @@ interface LeaderboardParams {
 }
 
 export const getLeaderboard = async (params: LeaderboardParams) => {
-  const response = await fetch(`${import.meta.env.VITE_API_URL}/api/leaderboard?` + 
+  const response = await fetch(`${process.env.REACT_APP_API_URL}/api/leaderboard?` + 
     new URLSearchParams({
       platform: params.platform,
       sortBy: params.sortBy,
